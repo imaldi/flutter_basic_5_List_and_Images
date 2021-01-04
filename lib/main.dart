@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic_5/image_screen.dart';
+import 'package:flutter_basic_5/number_picker.dart';
 import 'package:flutter_basic_5/pengembalian_data.dart';
 import 'package:flutter_basic_5/pengiriman_data.dart';
 import 'animation_screen.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
         '/sent_data':(BuildContext context) => new NewsScreen(),
         '/request_data':(BuildContext context) => new RequestDataScreen(),
         '/image':(BuildContext context) => new ImageDemoScreen(),
+        '/number_picker':(BuildContext context) => new NumberPickerScreen(),
       },
     );
   }
