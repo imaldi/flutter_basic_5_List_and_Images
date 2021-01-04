@@ -39,7 +39,7 @@ class _NumberPickerScreenState extends State<NumberPickerScreen> {
       }else{
         setState(() {
           currentDoubleValue = value;
-          decNumberPicker.animateDecimal(value);
+          decNumberPicker.animateDecimal(value.toInt());
         });
       }
     }
